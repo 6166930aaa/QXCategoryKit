@@ -7,7 +7,6 @@ target 'QXCategoryKit_Example' do
 
   target 'QXCategoryKit_Tests' do
     inherit! :search_paths
-
     
   end
 end

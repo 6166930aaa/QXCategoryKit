@@ -7,32 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A79CD700C81E928CE068E910C48C532 /* UIView+DKBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7005B21602AB02289B11254BE331CA /* UIView+DKBHelper.m */; };
-		0C962DA2509D64679EDD8D66A6807665 /* QXCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7347960FB9D2658AADFB780856F863A5 /* QXCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23347A8496EDD165EA0006FFE525D8C8 /* UIColor+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = D341B7A1C230792867A78A341BCA60A2 /* UIColor+YCat.m */; };
-		2DCDA491F8CEC87015553F493DE5FDCB /* UIView+CornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DF71C00482C87BFE28F3DB4738013E /* UIView+CornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A5F95A08FD0F856121B50E85851E110 /* UIViewController+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = B3332AFC8B444828CCF3C19862BEA3F6 /* UIViewController+YCat.m */; };
-		3EE318BE78E6C904FBE719D7A9BC6D63 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA07451072A92D8FF98F04C6B68F84 /* UIView+CornerRadius.m */; };
-		43054B58E4D2D766F8E293880CDB24B2 /* Pods-QXCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F93A1A07337CAA447D19BD6B930FA08F /* Pods-QXCategoryKit_Example-dummy.m */; };
-		52D6187AF9B2F6AE8C9E78685601B7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		555AD27F27CBE2881D3D46DF66D00F3C /* UIColor+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E6FD70A41D0698AEFBC53463033634 /* UIColor+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		632D997472ADD54BA092625B0AEDA178 /* UIButton+BorderCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 5404C4EEF4E74D037218BFA68B60159F /* UIButton+BorderCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		643A0241083A4B910E2D3FB8824052AB /* Pods-QXCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A740D0D59DBCEEF8EEB6BA05E176909F /* Pods-QXCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A60F62F710A1047BEE96DA2AE10ABBB /* NSObject+extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 5408582D489B1F036B0282A8A61505F8 /* NSObject+extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D9F05401DD360C38E662137A7934F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7E442BECFA166CF89FF54E17C5DB8084 /* UIView+DKBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 258EE95A2BEE7D2992407B275CFB338C /* UIView+DKBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03E5A194C168DA038C8570C3E1CB610F /* UIColor+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 227970BA08B0513F933EE1D04E3B9189 /* UIColor+YCat.m */; };
+		0A7EB5C6084E5B2F32D5B7E45D6C0D9B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DE5BA8622C524C0A888514DB6682197 /* SVProgressHUD.bundle */; };
+		0E7773C4E12A75AE9DF81D543D318871 /* QXCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0083796607BEE5676E5339B217F0D8ED /* QXCategoryKit-dummy.m */; };
+		11BCEB170BB849FA2F2F0AC78399774A /* SVProgressHUD+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = F26C233CFB65632DB1FE8EA443591BAD /* SVProgressHUD+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		135DF365B556D07B2084A82F47E1E8EE /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F0B05DCD0A765DB673B753946C0E95 /* SVRadialGradientLayer.m */; };
+		179E4B0AB0466F68920F195704C7A074 /* UIViewController+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CEFE9ABB4E965A1415C0B6CBF711A /* UIViewController+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AF484375856C7FE32FE6DA68BA8D80B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69C069599A4522192CCEBEA2E41761 /* SVProgressHUD.m */; };
+		45D6D7539B1AB95044B4BFFC5BE4E430 /* NSObject+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA9BB6A357DAD2FD45CB9CDC99A76E /* NSObject+YCat.m */; };
+		490285FB11B78A1CD2F92070C4F84C32 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54239C3AFD46E79E6C6B5EEFBB121CF7 /* SVProgressHUD.framework */; };
+		4CC5067BB6F9728873A85AF26ECB8605 /* UIView+CornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 640FDB9224E47F3611DD1C4C03B459B5 /* UIView+CornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAF23B04370E068A3B558261F4C38DC /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DCF879A3F71CD43B7705E20AA42349 /* SVProgressAnimatedView.m */; };
+		515F31FAE742DA43AE07F99991DA7D0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */; };
+		52D6187AF9B2F6AE8C9E78685601B7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */; };
+		5A5BD49782E7DBA4F8D50B120E97A7D5 /* UIButton+BorderCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = C42881084940F400C44DCC47B20B7B3B /* UIButton+BorderCornerRadius.m */; };
+		5D026C0914AF2BFA863DAD48C71B891B /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 329B13A401693A09D000F9FAC3FA05BB /* SVProgressHUD-dummy.m */; };
+		761E74009B1EC2645526C1C47FCC8C28 /* UIView+DKBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 392E80A6AADFAC63DDA3838295F03BCA /* UIView+DKBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764A69F3ACD24EE552BA5E09035AB151 /* NSObject+extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E0F45DF8E9E1BF882055B5F3882064 /* NSObject+extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796FD9083FE04C5B3DE6BC18B6E48A81 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 2476FCD9619327E9C4BD72874EA9CA56 /* UIView+CornerRadius.m */; };
 		7F9015CDC907F3433F4C001FC7D51D10 /* Pods-QXCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADBA78581845E95AE02BA78AE11A1EE /* Pods-QXCategoryKit_Tests-dummy.m */; };
-		7FDF31ACF3226FF3A09AF1A4464BC096 /* QXCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C89DC788C517FEE7EA58ACF0194A911 /* QXCategoryKit-dummy.m */; };
-		9506F5798FB98DBAADD05729D95937DB /* UIViewController+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3B9C64B9E581B7A0170317F4A7D69F /* UIViewController+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5DABF8AE65AAD9F987792FB2BE97594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B0A620856FD5FC4ABC314B3F899CA2EA /* UIButton+BorderCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD557E8D4B8ADA6D59557DE69E6D27F /* UIButton+BorderCornerRadius.m */; };
-		B8A27D25768FE97E9C20B302CC1E2C06 /* NSObject+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF0BFDF26A10B80F2EAAF2651C175CC /* NSObject+extend.m */; };
+		85B9F73098B856241BDA1C67F00FFF36 /* Pods-QXCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F93A1A07337CAA447D19BD6B930FA08F /* Pods-QXCategoryKit_Example-dummy.m */; };
+		8D3CEC0F4B4F508A785FDADE22B11CD9 /* SVProgressHUD+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407888F79CDCC9C0FA7F753B779DF00 /* SVProgressHUD+YCat.m */; };
+		8DE0E99F607948F3B1C79A4B93407DFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */; };
+		8ED6717C656DB1D7B325E6E6133D21D4 /* UIButton+BorderCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = C93E313271CEAE5F28A8FC889FFE22A8 /* UIButton+BorderCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901244E94373CED2B52354BAE2B2C038 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA2117CD5162FE4D399E9E44C4881FB /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FB95E326A7787ED3A5BFD9342FD39D /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFEA3CDDA8B73E1CE77E25ABF055E06 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD82679AC079CEBD5D55C2E4F8D0D533 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF342095293272EEC92E98971F299F6A /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C286DA2B66473FAA37811418DE4383B5 /* UIColor+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2774F3FDEDDF80DE66A84F1232901CDC /* UIColor+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C63612E5B66E6AF6A24B0CAEAF9D8A76 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF300EA321AFF06300AEC02C1494D9 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCA6522F2A3267A38D1ECC2C7005BE8D /* Pods-QXCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07687B95FB4405BBED5477E7558CC10C /* Pods-QXCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD0DD04299EC2312F4BAFB0FE479AF51 /* NSObject+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7A354684F56100F356B2917EFAEFA2 /* NSObject+YCat.m */; };
-		EF1FB4BB4C42FB5FED248D869B232BDE /* NSObject+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2BE7C472E04D011B744D75C7A0C325 /* NSObject+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD11BB58407187B060997DEB0F15AE6C /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43008961530BBE6A59C991A593D4CB1D /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2B093BD73B7361D310D4D5F4A4DE27 /* UIView+DKBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C23699E6BF4AB46B7D70CC9D070244 /* UIView+DKBHelper.m */; };
+		D3F838424990C432319F959787D7ED2F /* QXCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979DD76AAEC7FEC06EA7D400A3FB5879 /* QXCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5947296DBC5E6B4669C9542CB57C106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07E7718E252BB882050FA1B10F7AD6 /* QuartzCore.framework */; };
+		D9327A7F7FAC848F7F8C979A9C690C37 /* NSObject+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = FC579B32A461089CDD8E8FF0E7572FBB /* NSObject+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FE08A1A7253CE2915D05F6C05551CE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC6954634F898848FA9C40A25D50535 /* SVIndefiniteAnimatedView.m */; };
+		EA557FC4A847950BBDF0714DF2B0DF91 /* Pods-QXCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A740D0D59DBCEEF8EEB6BA05E176909F /* Pods-QXCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE150FD4B4EFA21D343897FCB8E1E120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */; };
+		F0E38E625C5AEB4EE8357D415EEC4353 /* UIViewController+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = B02CAEA9860757B5C457ECB0713614C1 /* UIViewController+YCat.m */; };
+		F524CEBDB0853EA506C332469B52FC92 /* NSObject+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EB38F2ADEFB72C27A4B88DEC4F4AF0 /* NSObject+extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		61E7A8F98EE610874678FE05AE60EBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464E2F087EF0C83F6FEB608708AFC43E;
+			remoteInfo = QXCategoryKit;
+		};
 		794D834D001CA71C026273C9F6926096 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -40,77 +63,106 @@
 			remoteGlobalIDString = CB3CF79C3B7359FFC473763FEFF78A7A;
 			remoteInfo = "Pods-QXCategoryKit_Example";
 		};
-		796C831C7F8F84942E639B086E1840D3 /* PBXContainerItemProxy */ = {
+		CDB7AC8E655ED168D65FEAF8B96CD555 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 464E2F087EF0C83F6FEB608708AFC43E;
-			remoteInfo = QXCategoryKit;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		D6180F177F832BDA7FB25F862D872689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0083796607BEE5676E5339B217F0D8ED /* QXCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		0407888F79CDCC9C0FA7F753B779DF00 /* SVProgressHUD+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SVProgressHUD+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/SVProgressHUD+YCat.m"; sourceTree = "<group>"; };
 		07687B95FB4405BBED5477E7558CC10C /* Pods-QXCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0B554C766595E32E75322BC78736CF90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0BFA71451A7B338A94A18E149E66D6FC /* Pods-QXCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0CD2C0C3A6DED48DEBF3CBFE4CDBC47C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		200EB4D3C9FEADF5CD9E388F0569121C /* Pods_QXCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		200EB4D3C9FEADF5CD9E388F0569121C /* Pods_QXCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXCategoryKit_Tests.framework; path = "Pods-QXCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F19D2E64F9E29C1CD83D0D2B3B5618 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		2242715BC4085DA90434972F9C61D35C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		227970BA08B0513F933EE1D04E3B9189 /* UIColor+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/UIColor+YCat.m"; sourceTree = "<group>"; };
 		235FC4EAFE5C1987942757BF66FB3622 /* Pods-QXCategoryKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXCategoryKit_Example-Info.plist"; sourceTree = "<group>"; };
-		258EE95A2BEE7D2992407B275CFB338C /* UIView+DKBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DKBHelper.h"; path = "QXCategoryKit/Classes/categoryTool/UIView+DKBHelper.h"; sourceTree = "<group>"; };
-		25E6FD70A41D0698AEFBC53463033634 /* UIColor+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/UIColor+YCat.h"; sourceTree = "<group>"; };
+		2476FCD9619327E9C4BD72874EA9CA56 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CornerRadius.m"; path = "QXCategoryKit/Classes/categoryTool/UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		2774F3FDEDDF80DE66A84F1232901CDC /* UIColor+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/UIColor+YCat.h"; sourceTree = "<group>"; };
 		2ADBA78581845E95AE02BA78AE11A1EE /* Pods-QXCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		2C571CC3314ED25CCD6B4039046ECECA /* QXCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QXCategoryKit-Info.plist"; sourceTree = "<group>"; };
+		2AFEA3CDDA8B73E1CE77E25ABF055E06 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		2F17C97CA52DF8147C842ACD1A5D2417 /* Pods-QXCategoryKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXCategoryKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		2FA0021048F650AA5A036848172C8B65 /* Pods-QXCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		462084743C8B7BAC4A3621CAA68FC44C /* QXCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QXCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		5404C4EEF4E74D037218BFA68B60159F /* UIButton+BorderCornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BorderCornerRadius.h"; path = "QXCategoryKit/Classes/categoryTool/UIButton+BorderCornerRadius.h"; sourceTree = "<group>"; };
-		5408582D489B1F036B0282A8A61505F8 /* NSObject+extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+extend.h"; path = "QXCategoryKit/Classes/categoryTool/NSObject+extend.h"; sourceTree = "<group>"; };
-		5B5503C057005E3A9467D72B3C2BBDE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5EDA07451072A92D8FF98F04C6B68F84 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CornerRadius.m"; path = "QXCategoryKit/Classes/categoryTool/UIView+CornerRadius.m"; sourceTree = "<group>"; };
-		629ADC9C2BFE2BCB310BDFDBA40C04FF /* QXCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXCategoryKit.xcconfig; sourceTree = "<group>"; };
+		329B13A401693A09D000F9FAC3FA05BB /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		392E80A6AADFAC63DDA3838295F03BCA /* UIView+DKBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DKBHelper.h"; path = "QXCategoryKit/Classes/categoryTool/UIView+DKBHelper.h"; sourceTree = "<group>"; };
+		3DE5BA8622C524C0A888514DB6682197 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3EA2117CD5162FE4D399E9E44C4881FB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		43008961530BBE6A59C991A593D4CB1D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		49EB38F2ADEFB72C27A4B88DEC4F4AF0 /* NSObject+extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+extend.m"; path = "QXCategoryKit/Classes/categoryTool/NSObject+extend.m"; sourceTree = "<group>"; };
+		4F245C5B26E007EC3BC619AC3FEE0529 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		54239C3AFD46E79E6C6B5EEFBB121CF7 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F036B24CAAAF9785DA725D2D1F8DFB2 /* QXCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXCategoryKit.xcconfig; sourceTree = "<group>"; };
+		640FDB9224E47F3611DD1C4C03B459B5 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CornerRadius.h"; path = "QXCategoryKit/Classes/categoryTool/UIView+CornerRadius.h"; sourceTree = "<group>"; };
 		6A5B1141F24F2B66F20AE1E64497862A /* Pods-QXCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D90BCA4FC5871EC91B040B052989E6E /* Pods-QXCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
 		6F061CFB8D78A8B8E73337F9F4A8FCA8 /* Pods-QXCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6FD557E8D4B8ADA6D59557DE69E6D27F /* UIButton+BorderCornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+BorderCornerRadius.m"; path = "QXCategoryKit/Classes/categoryTool/UIButton+BorderCornerRadius.m"; sourceTree = "<group>"; };
-		7347960FB9D2658AADFB780856F863A5 /* QXCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXCategoryKit-umbrella.h"; sourceTree = "<group>"; };
-		7A2BE7C472E04D011B744D75C7A0C325 /* NSObject+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/NSObject+YCat.h"; sourceTree = "<group>"; };
-		7A351439F41DC45931F59B8FEEE20B1F /* Pods_QXCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C768BE11A48FA9BA755B1AC33186CFE /* QXCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXCategoryKit.modulemap; sourceTree = "<group>"; };
-		9C89DC788C517FEE7EA58ACF0194A911 /* QXCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXCategoryKit-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		724CEFE9ABB4E965A1415C0B6CBF711A /* UIViewController+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/UIViewController+YCat.h"; sourceTree = "<group>"; };
+		7A351439F41DC45931F59B8FEEE20B1F /* Pods_QXCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXCategoryKit_Example.framework; path = "Pods-QXCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F0B05DCD0A765DB673B753946C0E95 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93E0F45DF8E9E1BF882055B5F3882064 /* NSObject+extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+extend.h"; path = "QXCategoryKit/Classes/categoryTool/NSObject+extend.h"; sourceTree = "<group>"; };
+		979DD76AAEC7FEC06EA7D400A3FB5879 /* QXCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4E706DD884DDC9E9FB14F6C164FDBB /* Pods-QXCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A09C6A867B1C8CA1B146E32744E04FDE /* QXCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QXCategoryKit-Info.plist"; sourceTree = "<group>"; };
+		A3C23699E6BF4AB46B7D70CC9D070244 /* UIView+DKBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DKBHelper.m"; path = "QXCategoryKit/Classes/categoryTool/UIView+DKBHelper.m"; sourceTree = "<group>"; };
 		A740D0D59DBCEEF8EEB6BA05E176909F /* Pods-QXCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		AAA901573AE010D7AD9AEBEE87B4946E /* Pods-QXCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AEF0BFDF26A10B80F2EAAF2651C175CC /* NSObject+extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+extend.m"; path = "QXCategoryKit/Classes/categoryTool/NSObject+extend.m"; sourceTree = "<group>"; };
-		B3332AFC8B444828CCF3C19862BEA3F6 /* UIViewController+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/UIViewController+YCat.m"; sourceTree = "<group>"; };
+		AD07E7718E252BB882050FA1B10F7AD6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AF342095293272EEC92E98971F299F6A /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		B02CAEA9860757B5C457ECB0713614C1 /* UIViewController+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/UIViewController+YCat.m"; sourceTree = "<group>"; };
+		B2596B6702622DBC9385D2886D294FD0 /* QXCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		B3A71D399218451FDAB5D4BAE832C0A7 /* QXCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QXCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B61B8A5F267C77F96BFA1C3EE7844874 /* Pods-QXCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB4283F45CA014352E88538F9C8DC989 /* Pods-QXCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB7005B21602AB02289B11254BE331CA /* UIView+DKBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DKBHelper.m"; path = "QXCategoryKit/Classes/categoryTool/UIView+DKBHelper.m"; sourceTree = "<group>"; };
-		BF7A354684F56100F356B2917EFAEFA2 /* NSObject+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/NSObject+YCat.m"; sourceTree = "<group>"; };
 		C0F1710DBD38F0F5AFF1D5A35C0AA794 /* Pods-QXCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C42881084940F400C44DCC47B20B7B3B /* UIButton+BorderCornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+BorderCornerRadius.m"; path = "QXCategoryKit/Classes/categoryTool/UIButton+BorderCornerRadius.m"; sourceTree = "<group>"; };
 		C55FF351190E2E307EA6923251954DD2 /* Pods-QXCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C84D0834ACAA132AF1E9E32EA74EE192 /* QXCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXCategoryKit-prefix.pch"; sourceTree = "<group>"; };
-		D341B7A1C230792867A78A341BCA60A2 /* UIColor+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/UIColor+YCat.m"; sourceTree = "<group>"; };
-		F3DA1F07BAF1393BF8437023CDE54CEF /* QXCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QXCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3DF71C00482C87BFE28F3DB4738013E /* UIView+CornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CornerRadius.h"; path = "QXCategoryKit/Classes/categoryTool/UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		C93E313271CEAE5F28A8FC889FFE22A8 /* UIButton+BorderCornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BorderCornerRadius.h"; path = "QXCategoryKit/Classes/categoryTool/UIButton+BorderCornerRadius.h"; sourceTree = "<group>"; };
+		CAEA9BB6A357DAD2FD45CB9CDC99A76E /* NSObject+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/NSObject+YCat.m"; sourceTree = "<group>"; };
+		CCC674379F5439C9930A5825CBE135BC /* QXCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXCategoryKit.modulemap; sourceTree = "<group>"; };
+		CE69C069599A4522192CCEBEA2E41761 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		D33F3F8E8B40F940D3C53C54DB509D46 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		E8CF300EA321AFF06300AEC02C1494D9 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC6954634F898848FA9C40A25D50535 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		F26C233CFB65632DB1FE8EA443591BAD /* SVProgressHUD+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SVProgressHUD+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/SVProgressHUD+YCat.h"; sourceTree = "<group>"; };
+		F3248F7C44DBEB262DFFCFDE05DDA76E /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F3DA1F07BAF1393BF8437023CDE54CEF /* QXCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QXCategoryKit.framework; path = QXCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DCF879A3F71CD43B7705E20AA42349 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		F93A1A07337CAA447D19BD6B930FA08F /* Pods-QXCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		FF3B9C64B9E581B7A0170317F4A7D69F /* UIViewController+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/UIViewController+YCat.h"; sourceTree = "<group>"; };
+		FC579B32A461089CDD8E8FF0E7572FBB /* NSObject+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/NSObject+YCat.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA6863ADB8BAE3E5A6A65CDD52A22F06 /* Frameworks */ = {
+		0321235569CE3DAE6F55E5EEDB59D288 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D9F05401DD360C38E662137A7934F6D /* Foundation.framework in Frameworks */,
+				EE150FD4B4EFA21D343897FCB8E1E120 /* Foundation.framework in Frameworks */,
+				490285FB11B78A1CD2F92070C4F84C32 /* SVProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D147A479D50E01BEEF6BCD9E4234A7E4 /* Frameworks */ = {
+		20B22C3CD7A1C1E83E714D4E1655D40E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5DABF8AE65AAD9F987792FB2BE97594 /* Foundation.framework in Frameworks */,
+				515F31FAE742DA43AE07F99991DA7D0D /* Foundation.framework in Frameworks */,
+				D5947296DBC5E6B4669C9542CB57C106 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,63 +174,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAECA401B26C53493E5089AF16930C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE0E99F607948F3B1C79A4B93407DFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D5A7F7F2DA85CCD6EF98038D10BE70A /* QXCategoryKit */ = {
+		1AB216B87AD4AD6FDF108ED53B54A9F3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5408582D489B1F036B0282A8A61505F8 /* NSObject+extend.h */,
-				AEF0BFDF26A10B80F2EAAF2651C175CC /* NSObject+extend.m */,
-				7A2BE7C472E04D011B744D75C7A0C325 /* NSObject+YCat.h */,
-				BF7A354684F56100F356B2917EFAEFA2 /* NSObject+YCat.m */,
-				5404C4EEF4E74D037218BFA68B60159F /* UIButton+BorderCornerRadius.h */,
-				6FD557E8D4B8ADA6D59557DE69E6D27F /* UIButton+BorderCornerRadius.m */,
-				25E6FD70A41D0698AEFBC53463033634 /* UIColor+YCat.h */,
-				D341B7A1C230792867A78A341BCA60A2 /* UIColor+YCat.m */,
-				F3DF71C00482C87BFE28F3DB4738013E /* UIView+CornerRadius.h */,
-				5EDA07451072A92D8FF98F04C6B68F84 /* UIView+CornerRadius.m */,
-				258EE95A2BEE7D2992407B275CFB338C /* UIView+DKBHelper.h */,
-				BB7005B21602AB02289B11254BE331CA /* UIView+DKBHelper.m */,
-				FF3B9C64B9E581B7A0170317F4A7D69F /* UIViewController+YCat.h */,
-				B3332AFC8B444828CCF3C19862BEA3F6 /* UIViewController+YCat.m */,
-				CE5AB3D144BEBBBD37CF5EAD6FA377CC /* Pod */,
-				5199147704E63026127ADD483499C7EF /* Support Files */,
+				2242715BC4085DA90434972F9C61D35C /* LICENSE */,
+				B3A71D399218451FDAB5D4BAE832C0A7 /* QXCategoryKit.podspec */,
+				0B554C766595E32E75322BC78736CF90 /* README.md */,
 			);
-			name = QXCategoryKit;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		21B031406E2DFCF166E2B490522FDCC6 /* Products */ = {
+		25053C11503066A27DD065BBA9977237 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7A351439F41DC45931F59B8FEEE20B1F /* Pods_QXCategoryKit_Example.framework */,
-				200EB4D3C9FEADF5CD9E388F0569121C /* Pods_QXCategoryKit_Tests.framework */,
-				F3DA1F07BAF1393BF8437023CDE54CEF /* QXCategoryKit.framework */,
+				8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */,
+				AD07E7718E252BB882050FA1B10F7AD6 /* QuartzCore.framework */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5199147704E63026127ADD483499C7EF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C768BE11A48FA9BA755B1AC33186CFE /* QXCategoryKit.modulemap */,
-				629ADC9C2BFE2BCB310BDFDBA40C04FF /* QXCategoryKit.xcconfig */,
-				9C89DC788C517FEE7EA58ACF0194A911 /* QXCategoryKit-dummy.m */,
-				2C571CC3314ED25CCD6B4039046ECECA /* QXCategoryKit-Info.plist */,
-				C84D0834ACAA132AF1E9E32EA74EE192 /* QXCategoryKit-prefix.pch */,
-				7347960FB9D2658AADFB780856F863A5 /* QXCategoryKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QXCategoryKit";
-			sourceTree = "<group>";
-		};
-		685BB7FFDB4E57E6E9DF7631AED38A93 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0D5A7F7F2DA85CCD6EF98038D10BE70A /* QXCategoryKit */,
-			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		748E5FCDD8D42FFF2AEFDFF64838F132 /* Pods-QXCategoryKit_Tests */ = {
@@ -214,12 +237,71 @@
 			path = "Target Support Files/Pods-QXCategoryKit_Example";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		96EC1FDA8213EA94182AF633E3DDBC12 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				3DE5BA8622C524C0A888514DB6682197 /* SVProgressHUD.bundle */,
 			);
-			name = iOS;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9871E0A4D9874461BFA4ED93D54B1ED0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC674379F5439C9930A5825CBE135BC /* QXCategoryKit.modulemap */,
+				5F036B24CAAAF9785DA725D2D1F8DFB2 /* QXCategoryKit.xcconfig */,
+				0083796607BEE5676E5339B217F0D8ED /* QXCategoryKit-dummy.m */,
+				A09C6A867B1C8CA1B146E32744E04FDE /* QXCategoryKit-Info.plist */,
+				B2596B6702622DBC9385D2886D294FD0 /* QXCategoryKit-prefix.pch */,
+				979DD76AAEC7FEC06EA7D400A3FB5879 /* QXCategoryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QXCategoryKit";
+			sourceTree = "<group>";
+		};
+		A09EE5F48EBC2BCC9CD23F383717C931 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B255955164901D45D7F0D44D9233ED31 /* QXCategoryKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A9B3E3AB748CA6586040F36880C4D770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A351439F41DC45931F59B8FEEE20B1F /* Pods_QXCategoryKit_Example.framework */,
+				200EB4D3C9FEADF5CD9E388F0569121C /* Pods_QXCategoryKit_Tests.framework */,
+				F3DA1F07BAF1393BF8437023CDE54CEF /* QXCategoryKit.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B255955164901D45D7F0D44D9233ED31 /* QXCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				93E0F45DF8E9E1BF882055B5F3882064 /* NSObject+extend.h */,
+				49EB38F2ADEFB72C27A4B88DEC4F4AF0 /* NSObject+extend.m */,
+				FC579B32A461089CDD8E8FF0E7572FBB /* NSObject+YCat.h */,
+				CAEA9BB6A357DAD2FD45CB9CDC99A76E /* NSObject+YCat.m */,
+				F26C233CFB65632DB1FE8EA443591BAD /* SVProgressHUD+YCat.h */,
+				0407888F79CDCC9C0FA7F753B779DF00 /* SVProgressHUD+YCat.m */,
+				C93E313271CEAE5F28A8FC889FFE22A8 /* UIButton+BorderCornerRadius.h */,
+				C42881084940F400C44DCC47B20B7B3B /* UIButton+BorderCornerRadius.m */,
+				2774F3FDEDDF80DE66A84F1232901CDC /* UIColor+YCat.h */,
+				227970BA08B0513F933EE1D04E3B9189 /* UIColor+YCat.m */,
+				640FDB9224E47F3611DD1C4C03B459B5 /* UIView+CornerRadius.h */,
+				2476FCD9619327E9C4BD72874EA9CA56 /* UIView+CornerRadius.m */,
+				392E80A6AADFAC63DDA3838295F03BCA /* UIView+DKBHelper.h */,
+				A3C23699E6BF4AB46B7D70CC9D070244 /* UIView+DKBHelper.m */,
+				724CEFE9ABB4E965A1415C0B6CBF711A /* UIViewController+YCat.h */,
+				B02CAEA9860757B5C457ECB0713614C1 /* UIViewController+YCat.m */,
+				1AB216B87AD4AD6FDF108ED53B54A9F3 /* Pod */,
+				9871E0A4D9874461BFA4ED93D54B1ED0 /* Support Files */,
+			);
+			name = QXCategoryKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C4D1ABB5A67FA74998B4D813D110073F /* Targets Support Files */ = {
@@ -231,50 +313,95 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CE5AB3D144BEBBBD37CF5EAD6FA377CC /* Pod */ = {
+		C4EA358A5ACB52BD9114046328F08B3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B5503C057005E3A9467D72B3C2BBDE9 /* LICENSE */,
-				462084743C8B7BAC4A3621CAA68FC44C /* QXCategoryKit.podspec */,
-				0CD2C0C3A6DED48DEBF3CBFE4CDBC47C /* README.md */,
+				54239C3AFD46E79E6C6B5EEFBB121CF7 /* SVProgressHUD.framework */,
+				25053C11503066A27DD065BBA9977237 /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				685BB7FFDB4E57E6E9DF7631AED38A93 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				21B031406E2DFCF166E2B490522FDCC6 /* Products */,
+				A09EE5F48EBC2BCC9CD23F383717C931 /* Development Pods */,
+				C4EA358A5ACB52BD9114046328F08B3F /* Frameworks */,
+				D0F28EFC8C9E325880381D586C3CA919 /* Pods */,
+				A9B3E3AB748CA6586040F36880C4D770 /* Products */,
 				C4D1ABB5A67FA74998B4D813D110073F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D0F28EFC8C9E325880381D586C3CA919 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				D296A05D57D85D3C279245FDD577FE97 /* SVProgressHUD */,
 			);
-			name = Frameworks;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D296A05D57D85D3C279245FDD577FE97 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3EA2117CD5162FE4D399E9E44C4881FB /* SVIndefiniteAnimatedView.h */,
+				EAC6954634F898848FA9C40A25D50535 /* SVIndefiniteAnimatedView.m */,
+				E8CF300EA321AFF06300AEC02C1494D9 /* SVProgressAnimatedView.h */,
+				F3DCF879A3F71CD43B7705E20AA42349 /* SVProgressAnimatedView.m */,
+				2AFEA3CDDA8B73E1CE77E25ABF055E06 /* SVProgressHUD.h */,
+				CE69C069599A4522192CCEBEA2E41761 /* SVProgressHUD.m */,
+				43008961530BBE6A59C991A593D4CB1D /* SVRadialGradientLayer.h */,
+				87F0B05DCD0A765DB673B753946C0E95 /* SVRadialGradientLayer.m */,
+				96EC1FDA8213EA94182AF633E3DDBC12 /* Resources */,
+				E72B1AB9FC36AA84956754C27C30A816 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E72B1AB9FC36AA84956754C27C30A816 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F245C5B26E007EC3BC619AC3FEE0529 /* SVProgressHUD.modulemap */,
+				D33F3F8E8B40F940D3C53C54DB509D46 /* SVProgressHUD.xcconfig */,
+				329B13A401693A09D000F9FAC3FA05BB /* SVProgressHUD-dummy.m */,
+				21F19D2E64F9E29C1CD83D0D2B3B5618 /* SVProgressHUD-Info.plist */,
+				F3248F7C44DBEB262DFFCFDE05DDA76E /* SVProgressHUD-prefix.pch */,
+				AF342095293272EEC92E98971F299F6A /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1BBC7318906C0AB894C25A2116E2BCFA /* Headers */ = {
+		0184F2C78F3F88C977E15E617CAAAB68 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A60F62F710A1047BEE96DA2AE10ABBB /* NSObject+extend.h in Headers */,
-				EF1FB4BB4C42FB5FED248D869B232BDE /* NSObject+YCat.h in Headers */,
-				0C962DA2509D64679EDD8D66A6807665 /* QXCategoryKit-umbrella.h in Headers */,
-				632D997472ADD54BA092625B0AEDA178 /* UIButton+BorderCornerRadius.h in Headers */,
-				555AD27F27CBE2881D3D46DF66D00F3C /* UIColor+YCat.h in Headers */,
-				2DCDA491F8CEC87015553F493DE5FDCB /* UIView+CornerRadius.h in Headers */,
-				7E442BECFA166CF89FF54E17C5DB8084 /* UIView+DKBHelper.h in Headers */,
-				9506F5798FB98DBAADD05729D95937DB /* UIViewController+YCat.h in Headers */,
+				764A69F3ACD24EE552BA5E09035AB151 /* NSObject+extend.h in Headers */,
+				D9327A7F7FAC848F7F8C979A9C690C37 /* NSObject+YCat.h in Headers */,
+				D3F838424990C432319F959787D7ED2F /* QXCategoryKit-umbrella.h in Headers */,
+				11BCEB170BB849FA2F2F0AC78399774A /* SVProgressHUD+YCat.h in Headers */,
+				8ED6717C656DB1D7B325E6E6133D21D4 /* UIButton+BorderCornerRadius.h in Headers */,
+				C286DA2B66473FAA37811418DE4383B5 /* UIColor+YCat.h in Headers */,
+				4CC5067BB6F9728873A85AF26ECB8605 /* UIView+CornerRadius.h in Headers */,
+				761E74009B1EC2645526C1C47FCC8C28 /* UIView+DKBHelper.h in Headers */,
+				179E4B0AB0466F68920F195704C7A074 /* UIViewController+YCat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD596AB01B3090B56D76A22D44E512C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901244E94373CED2B52354BAE2B2C038 /* SVIndefiniteAnimatedView.h in Headers */,
+				C63612E5B66E6AF6A24B0CAEAF9D8A76 /* SVProgressAnimatedView.h in Headers */,
+				BD82679AC079CEBD5D55C2E4F8D0D533 /* SVProgressHUD-umbrella.h in Headers */,
+				A3FB95E326A7787ED3A5BFD9342FD39D /* SVProgressHUD.h in Headers */,
+				CD11BB58407187B060997DEB0F15AE6C /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,29 +413,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFE4917435519C2BCD62E4E8BC32BD96 /* Headers */ = {
+		7DC3C8047B816F4D1FBCD8A87744ADA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643A0241083A4B910E2D3FB8824052AB /* Pods-QXCategoryKit_Example-umbrella.h in Headers */,
+				EA557FC4A847950BBDF0714DF2B0DF91 /* Pods-QXCategoryKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		464E2F087EF0C83F6FEB608708AFC43E /* QXCategoryKit */ = {
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AB5784C3CEEC7BA0CD4918B450F24D0 /* Build configuration list for PBXNativeTarget "QXCategoryKit" */;
+			buildConfigurationList = 6715F9587650A8DC53464C0B5FE249D6 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				1BBC7318906C0AB894C25A2116E2BCFA /* Headers */,
-				EC856166B516697252E9EE152F4A3645 /* Sources */,
-				D147A479D50E01BEEF6BCD9E4234A7E4 /* Frameworks */,
-				CDED7F6FE48DFD2BF498AEE4FFD1F837 /* Resources */,
+				1FD596AB01B3090B56D76A22D44E512C /* Headers */,
+				8A1CB0063CA213984986A67EC7D2FD06 /* Sources */,
+				20B22C3CD7A1C1E83E714D4E1655D40E /* Frameworks */,
+				4312CF3D016CA6B6AA71F17E0A682781 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		464E2F087EF0C83F6FEB608708AFC43E /* QXCategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9CA367DB75BC400358217F957B31D60 /* Build configuration list for PBXNativeTarget "QXCategoryKit" */;
+			buildPhases = (
+				0184F2C78F3F88C977E15E617CAAAB68 /* Headers */,
+				122FF989B62AA3B0B07BABFEFB725557 /* Sources */,
+				0321235569CE3DAE6F55E5EEDB59D288 /* Frameworks */,
+				8C861340F6198A234A579F28B822C5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F960398B6C2F1B9E5BD613C7E9A537 /* PBXTargetDependency */,
 			);
 			name = QXCategoryKit;
 			productName = QXCategoryKit;
@@ -317,17 +463,18 @@
 		};
 		CB3CF79C3B7359FFC473763FEFF78A7A /* Pods-QXCategoryKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 425D5B490F530D3344814244F072B449 /* Build configuration list for PBXNativeTarget "Pods-QXCategoryKit_Example" */;
+			buildConfigurationList = CE84BEFEC57D1CB6D52C412142C93CDF /* Build configuration list for PBXNativeTarget "Pods-QXCategoryKit_Example" */;
 			buildPhases = (
-				BFE4917435519C2BCD62E4E8BC32BD96 /* Headers */,
-				E77A9810074B4AE86490027544C0BBB4 /* Sources */,
-				BA6863ADB8BAE3E5A6A65CDD52A22F06 /* Frameworks */,
-				07E0F20E273A31389803C18A1A7ED081 /* Resources */,
+				7DC3C8047B816F4D1FBCD8A87744ADA5 /* Headers */,
+				B5C0CA1068D770C3E44C2D155DF487AB /* Sources */,
+				EAECA401B26C53493E5089AF16930C66 /* Frameworks */,
+				899F45FF54ED85752DB6447C217B1A73 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				508FDB91EA77B68A6BC655829FB8D5B3 /* PBXTargetDependency */,
+				8B8B2981732A89EA4E458116D5222242 /* PBXTargetDependency */,
+				C5BFDD50367FFC636F7E13E878F027B9 /* PBXTargetDependency */,
 			);
 			name = "Pods-QXCategoryKit_Example";
 			productName = "Pods-QXCategoryKit_Example";
@@ -371,22 +518,24 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 21B031406E2DFCF166E2B490522FDCC6 /* Products */;
+			productRefGroup = A9B3E3AB748CA6586040F36880C4D770 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CB3CF79C3B7359FFC473763FEFF78A7A /* Pods-QXCategoryKit_Example */,
 				EB8982831ED5F769DCCD0AB6C6472036 /* Pods-QXCategoryKit_Tests */,
 				464E2F087EF0C83F6FEB608708AFC43E /* QXCategoryKit */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07E0F20E273A31389803C18A1A7ED081 /* Resources */ = {
+		4312CF3D016CA6B6AA71F17E0A682781 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7EB5C6084E5B2F32D5B7E45D6C0D9B /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +546,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDED7F6FE48DFD2BF498AEE4FFD1F837 /* Resources */ = {
+		899F45FF54ED85752DB6447C217B1A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C861340F6198A234A579F28B822C5C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,6 +563,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		122FF989B62AA3B0B07BABFEFB725557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F524CEBDB0853EA506C332469B52FC92 /* NSObject+extend.m in Sources */,
+				45D6D7539B1AB95044B4BFFC5BE4E430 /* NSObject+YCat.m in Sources */,
+				0E7773C4E12A75AE9DF81D543D318871 /* QXCategoryKit-dummy.m in Sources */,
+				8D3CEC0F4B4F508A785FDADE22B11CD9 /* SVProgressHUD+YCat.m in Sources */,
+				5A5BD49782E7DBA4F8D50B120E97A7D5 /* UIButton+BorderCornerRadius.m in Sources */,
+				03E5A194C168DA038C8570C3E1CB610F /* UIColor+YCat.m in Sources */,
+				796FD9083FE04C5B3DE6BC18B6E48A81 /* UIView+CornerRadius.m in Sources */,
+				CF2B093BD73B7361D310D4D5F4A4DE27 /* UIView+DKBHelper.m in Sources */,
+				F0E38E625C5AEB4EE8357D415EEC4353 /* UIViewController+YCat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51E620F72B1CCCDA3FE2735CC48F9195 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,37 +587,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E77A9810074B4AE86490027544C0BBB4 /* Sources */ = {
+		8A1CB0063CA213984986A67EC7D2FD06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43054B58E4D2D766F8E293880CDB24B2 /* Pods-QXCategoryKit_Example-dummy.m in Sources */,
+				E7FE08A1A7253CE2915D05F6C05551CE /* SVIndefiniteAnimatedView.m in Sources */,
+				4FAF23B04370E068A3B558261F4C38DC /* SVProgressAnimatedView.m in Sources */,
+				5D026C0914AF2BFA863DAD48C71B891B /* SVProgressHUD-dummy.m in Sources */,
+				1AF484375856C7FE32FE6DA68BA8D80B /* SVProgressHUD.m in Sources */,
+				135DF365B556D07B2084A82F47E1E8EE /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC856166B516697252E9EE152F4A3645 /* Sources */ = {
+		B5C0CA1068D770C3E44C2D155DF487AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A27D25768FE97E9C20B302CC1E2C06 /* NSObject+extend.m in Sources */,
-				DD0DD04299EC2312F4BAFB0FE479AF51 /* NSObject+YCat.m in Sources */,
-				7FDF31ACF3226FF3A09AF1A4464BC096 /* QXCategoryKit-dummy.m in Sources */,
-				B0A620856FD5FC4ABC314B3F899CA2EA /* UIButton+BorderCornerRadius.m in Sources */,
-				23347A8496EDD165EA0006FFE525D8C8 /* UIColor+YCat.m in Sources */,
-				3EE318BE78E6C904FBE719D7A9BC6D63 /* UIView+CornerRadius.m in Sources */,
-				0A79CD700C81E928CE068E910C48C532 /* UIView+DKBHelper.m in Sources */,
-				3A5F95A08FD0F856121B50E85851E110 /* UIViewController+YCat.m in Sources */,
+				85B9F73098B856241BDA1C67F00FFF36 /* Pods-QXCategoryKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		508FDB91EA77B68A6BC655829FB8D5B3 /* PBXTargetDependency */ = {
+		75F960398B6C2F1B9E5BD613C7E9A537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = CDB7AC8E655ED168D65FEAF8B96CD555 /* PBXContainerItemProxy */;
+		};
+		8B8B2981732A89EA4E458116D5222242 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QXCategoryKit;
 			target = 464E2F087EF0C83F6FEB608708AFC43E /* QXCategoryKit */;
-			targetProxy = 796C831C7F8F84942E639B086E1840D3 /* PBXContainerItemProxy */;
+			targetProxy = 61E7A8F98EE610874678FE05AE60EBB8 /* PBXContainerItemProxy */;
 		};
 		B4AB45300A4910F7476A3A6EF71C01C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -453,13 +628,20 @@
 			target = CB3CF79C3B7359FFC473763FEFF78A7A /* Pods-QXCategoryKit_Example */;
 			targetProxy = 794D834D001CA71C026273C9F6926096 /* PBXContainerItemProxy */;
 		};
+		C5BFDD50367FFC636F7E13E878F027B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = D6180F177F832BDA7FB25F862D872689 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E4F4465C04133F8E949EE53DAD769B6 /* Release */ = {
+		0FE0F8ABEC581A70052C5A365B506CF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629ADC9C2BFE2BCB310BDFDBA40C04FF /* QXCategoryKit.xcconfig */;
+			baseConfigurationReference = 0BFA71451A7B338A94A18E149E66D6FC /* Pods-QXCategoryKit_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -469,26 +651,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QXCategoryKit/QXCategoryKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QXCategoryKit/QXCategoryKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QXCategoryKit_Example/Pods-QXCategoryKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QXCategoryKit/QXCategoryKit.modulemap";
-				PRODUCT_MODULE_NAME = QXCategoryKit;
-				PRODUCT_NAME = QXCategoryKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXCategoryKit_Example/Pods-QXCategoryKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		386351E81F5FA265D37050D97FD3C0FF /* Release */ = {
+		3DBCB4037108F08CCF882CBB8AB8037E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAA901573AE010D7AD9AEBEE87B4946E /* Pods-QXCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
@@ -575,11 +757,43 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		4E1D545E544A37336535E0732710EC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33F3F8E8B40F940D3C53C54DB509D46 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6430F80F6F1592DC504305433650C8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -679,9 +893,41 @@
 			};
 			name = Debug;
 		};
-		9A0D1A8EE836A83C565D957F52E561FF /* Debug */ = {
+		8422FEE0AC0C2C4E86BA2A0754F034B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629ADC9C2BFE2BCB310BDFDBA40C04FF /* QXCategoryKit.xcconfig */;
+			baseConfigurationReference = D33F3F8E8B40F940D3C53C54DB509D46 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95DA052B37C1549D28916D77AEA5A33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F036B24CAAAF9785DA725D2D1F8DFB2 /* QXCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -705,10 +951,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D8C3938642F041F5BDFB29E8AE5EF3DB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -743,11 +990,10 @@
 			};
 			name = Debug;
 		};
-		FD18C6FF169EAD672EE11B95E2589CC6 /* Debug */ = {
+		E5158025D00893AB35CE9916949BEBD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BFA71451A7B338A94A18E149E66D6FC /* Pods-QXCategoryKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 5F036B24CAAAF9785DA725D2D1F8DFB2 /* QXCategoryKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -757,19 +1003,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QXCategoryKit_Example/Pods-QXCategoryKit_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QXCategoryKit/QXCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QXCategoryKit/QXCategoryKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QXCategoryKit_Example/Pods-QXCategoryKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/QXCategoryKit/QXCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = QXCategoryKit;
+				PRODUCT_NAME = QXCategoryKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -779,15 +1024,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		425D5B490F530D3344814244F072B449 /* Build configuration list for PBXNativeTarget "Pods-QXCategoryKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD18C6FF169EAD672EE11B95E2589CC6 /* Debug */,
-				386351E81F5FA265D37050D97FD3C0FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -797,11 +1033,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AB5784C3CEEC7BA0CD4918B450F24D0 /* Build configuration list for PBXNativeTarget "QXCategoryKit" */ = {
+		6715F9587650A8DC53464C0B5FE249D6 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A0D1A8EE836A83C565D957F52E561FF /* Debug */,
-				1E4F4465C04133F8E949EE53DAD769B6 /* Release */,
+				4E1D545E544A37336535E0732710EC85 /* Debug */,
+				8422FEE0AC0C2C4E86BA2A0754F034B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -811,6 +1047,24 @@
 			buildConfigurations = (
 				D8C3938642F041F5BDFB29E8AE5EF3DB /* Debug */,
 				6430F80F6F1592DC504305433650C8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE84BEFEC57D1CB6D52C412142C93CDF /* Build configuration list for PBXNativeTarget "Pods-QXCategoryKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FE0F8ABEC581A70052C5A365B506CF1 /* Debug */,
+				3DBCB4037108F08CCF882CBB8AB8037E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9CA367DB75BC400358217F957B31D60 /* Build configuration list for PBXNativeTarget "QXCategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5158025D00893AB35CE9916949BEBD6 /* Debug */,
+				95DA052B37C1549D28916D77AEA5A33B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
