@@ -1,0 +1,22 @@
+{
+  "name": "QXCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of QXCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qx/QXCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qx": "quxin19880707@126.com"
+  },
+  "source": {
+    "git": "https://github.com/qx/QXCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QXCategoryKit/Classes/**/*"
+}

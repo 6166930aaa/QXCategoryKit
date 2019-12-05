@@ -1,0 +1,6 @@
+framework module QXCategoryKit {
+  umbrella header "QXCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

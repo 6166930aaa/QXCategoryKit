@@ -1,0 +1,16 @@
+PODS:
+  - QXCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - QXCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  QXCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QXCategoryKit: 1014fd9b697474461cad34ce46e72d2ba6fbd896
+
+PODFILE CHECKSUM: d899dc4aad135015cda9835e7af9620535fe58f8
+
+COCOAPODS: 1.8.4

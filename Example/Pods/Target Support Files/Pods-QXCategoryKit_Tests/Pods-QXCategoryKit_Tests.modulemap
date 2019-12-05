@@ -1,0 +1,6 @@
+framework module Pods_QXCategoryKit_Tests {
+  umbrella header "Pods-QXCategoryKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
