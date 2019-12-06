@@ -303,12 +303,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QXCategoryKit_Example/Pods-QXCategoryKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/QXCategoryKit/QXCategoryKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QXCategoryKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,22 +1,15 @@
 PODS:
-  - QXCategoryKit (0.1.4):
-    - SVProgressHUD
-  - SVProgressHUD (2.2.5)
+  - QXCategoryKit (0.1.5)
 
 DEPENDENCIES:
   - QXCategoryKit (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - SVProgressHUD
 
 EXTERNAL SOURCES:
   QXCategoryKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QXCategoryKit: f9031b4d232d01f6e1ac9fb5862fab2a17fb7cca
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  QXCategoryKit: a0de1dad5c3b874e8b927014dbdfceb9df821a5f
 
 PODFILE CHECKSUM: 89b29a9b537b45e086c2173348c3b08444b4680b
 
