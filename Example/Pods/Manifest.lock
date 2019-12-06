@@ -1,5 +1,5 @@
 PODS:
-  - QXCategoryKit (0.1.6):
+  - QXCategoryKit (0.1.7):
     - SVProgressHUD
   - SVProgressHUD (2.2.5)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QXCategoryKit: 995e631d9472798cbfbf7012dce32dd197873664
+  QXCategoryKit: 39e570eea37142c6ecfc82545e0880065a39da1e
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 89b29a9b537b45e086c2173348c3b08444b4680b
