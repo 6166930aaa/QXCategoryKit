@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E5A194C168DA038C8570C3E1CB610F /* UIColor+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 227970BA08B0513F933EE1D04E3B9189 /* UIColor+YCat.m */; };
 		0A7EB5C6084E5B2F32D5B7E45D6C0D9B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DE5BA8622C524C0A888514DB6682197 /* SVProgressHUD.bundle */; };
-		0E7773C4E12A75AE9DF81D543D318871 /* QXCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0083796607BEE5676E5339B217F0D8ED /* QXCategoryKit-dummy.m */; };
-		11BCEB170BB849FA2F2F0AC78399774A /* SVProgressHUD+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = F26C233CFB65632DB1FE8EA443591BAD /* SVProgressHUD+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		135DF365B556D07B2084A82F47E1E8EE /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F0B05DCD0A765DB673B753946C0E95 /* SVRadialGradientLayer.m */; };
-		179E4B0AB0466F68920F195704C7A074 /* UIViewController+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CEFE9ABB4E965A1415C0B6CBF711A /* UIViewController+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1899DA8AA1BEFB39CFE7FDC23FE5E205 /* UIView+DKBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C43CD641E5FD809053A2FEA7AEA6D74D /* UIView+DKBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AF484375856C7FE32FE6DA68BA8D80B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69C069599A4522192CCEBEA2E41761 /* SVProgressHUD.m */; };
-		45D6D7539B1AB95044B4BFFC5BE4E430 /* NSObject+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA9BB6A357DAD2FD45CB9CDC99A76E /* NSObject+YCat.m */; };
+		1AF6512BC25FAEC3519518CD1A76677A /* UIColor+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C0BA7630876EC08F4BCBCAE78DC587 /* UIColor+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		307551AD3CFCB8B4C1E935D9ED8745AB /* NSObject+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF1892BF7D2A056D8103E1C83DA66F1 /* NSObject+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39261E626579F67D55BD321B7526432C /* QXCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 565F58D493D2E9CCC169B40FD4515CAF /* QXCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C5D3BBDB630F7D55E1DEEE357CFBB72 /* UIViewController+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = F848620AF6142F7CCE69636C362E9892 /* UIViewController+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D9DA28F9002F545BB341D3E5E17A03D /* NSObject+extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 7423E7378C5737BE15BFE7135E521A22 /* NSObject+extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		490285FB11B78A1CD2F92070C4F84C32 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54239C3AFD46E79E6C6B5EEFBB121CF7 /* SVProgressHUD.framework */; };
-		4CC5067BB6F9728873A85AF26ECB8605 /* UIView+CornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 640FDB9224E47F3611DD1C4C03B459B5 /* UIView+CornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E6535CF8594A540CF618C36B3E3A37D /* NSObject+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D9602B6437457B2CC050D04F03C04 /* NSObject+YCat.m */; };
 		4FAF23B04370E068A3B558261F4C38DC /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DCF879A3F71CD43B7705E20AA42349 /* SVProgressAnimatedView.m */; };
 		515F31FAE742DA43AE07F99991DA7D0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */; };
 		52D6187AF9B2F6AE8C9E78685601B7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */; };
-		5A5BD49782E7DBA4F8D50B120E97A7D5 /* UIButton+BorderCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = C42881084940F400C44DCC47B20B7B3B /* UIButton+BorderCornerRadius.m */; };
+		567F5FC2F33E9ADDAB08D30DBB6C6C1C /* UIViewController+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5876FCF5BBB39895D84AA1D5AA0EB /* UIViewController+YCat.m */; };
 		5D026C0914AF2BFA863DAD48C71B891B /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 329B13A401693A09D000F9FAC3FA05BB /* SVProgressHUD-dummy.m */; };
-		761E74009B1EC2645526C1C47FCC8C28 /* UIView+DKBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 392E80A6AADFAC63DDA3838295F03BCA /* UIView+DKBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		764A69F3ACD24EE552BA5E09035AB151 /* NSObject+extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E0F45DF8E9E1BF882055B5F3882064 /* NSObject+extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		796FD9083FE04C5B3DE6BC18B6E48A81 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 2476FCD9619327E9C4BD72874EA9CA56 /* UIView+CornerRadius.m */; };
+		667F6B00C105DACCD7CE5BE57106227D /* UIColor+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3BF951256A570E02C7BFB9CB6D9AF /* UIColor+YCat.m */; };
+		72343751923AD89059856D879FE1C0D3 /* UIView+DKBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4BADE759573F60032622F73595719D /* UIView+DKBHelper.m */; };
+		7907692AFC280AE86849D6DCE084F784 /* CrazyGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA756F188AD4C4E5BF461265D74DE25 /* CrazyGuideView.m */; };
+		7CF6B8317A773D79B5251EDA9B227CCD /* QXCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074A9C19E7BAD34E2DFB2F01B040FF4 /* QXCategoryKit-dummy.m */; };
 		7F9015CDC907F3433F4C001FC7D51D10 /* Pods-QXCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADBA78581845E95AE02BA78AE11A1EE /* Pods-QXCategoryKit_Tests-dummy.m */; };
+		834AEFA93CEACA8991C6ACD53E5A0BC7 /* UIView+CornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 900975A5CC257450C67E65F34C158E50 /* UIView+CornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85B9F73098B856241BDA1C67F00FFF36 /* Pods-QXCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F93A1A07337CAA447D19BD6B930FA08F /* Pods-QXCategoryKit_Example-dummy.m */; };
-		8D3CEC0F4B4F508A785FDADE22B11CD9 /* SVProgressHUD+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407888F79CDCC9C0FA7F753B779DF00 /* SVProgressHUD+YCat.m */; };
 		8DE0E99F607948F3B1C79A4B93407DFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */; };
-		8ED6717C656DB1D7B325E6E6133D21D4 /* UIButton+BorderCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = C93E313271CEAE5F28A8FC889FFE22A8 /* UIButton+BorderCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		901244E94373CED2B52354BAE2B2C038 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA2117CD5162FE4D399E9E44C4881FB /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C1C9FC4337CB6915A61DEE4751D8B2 /* UIButton+BorderCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5D89767BEFE42BDD8DEC0CB915312A /* UIButton+BorderCornerRadius.m */; };
 		A3FB95E326A7787ED3A5BFD9342FD39D /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFEA3CDDA8B73E1CE77E25ABF055E06 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3A29B34D0338DF5586EC09AA66553A6 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00103A6F410C576C8E8B3F3FEB52C6 /* UIView+CornerRadius.m */; };
+		BC8C9E5ADDD1200D39FFE58CBA8BF467 /* NSObject+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60AFEDBB90419A6AF0ADDBCB40A85A /* NSObject+extend.m */; };
 		BD82679AC079CEBD5D55C2E4F8D0D533 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF342095293272EEC92E98971F299F6A /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C286DA2B66473FAA37811418DE4383B5 /* UIColor+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2774F3FDEDDF80DE66A84F1232901CDC /* UIColor+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C63612E5B66E6AF6A24B0CAEAF9D8A76 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF300EA321AFF06300AEC02C1494D9 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCA6522F2A3267A38D1ECC2C7005BE8D /* Pods-QXCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07687B95FB4405BBED5477E7558CC10C /* Pods-QXCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD11BB58407187B060997DEB0F15AE6C /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43008961530BBE6A59C991A593D4CB1D /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF2B093BD73B7361D310D4D5F4A4DE27 /* UIView+DKBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C23699E6BF4AB46B7D70CC9D070244 /* UIView+DKBHelper.m */; };
-		D3F838424990C432319F959787D7ED2F /* QXCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979DD76AAEC7FEC06EA7D400A3FB5879 /* QXCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A3C549F8D5F8774787171AB81C2569 /* UIButton+BorderCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5DDDB5E52497B27CF380104A004A67 /* UIButton+BorderCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5947296DBC5E6B4669C9542CB57C106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07E7718E252BB882050FA1B10F7AD6 /* QuartzCore.framework */; };
-		D9327A7F7FAC848F7F8C979A9C690C37 /* NSObject+YCat.h in Headers */ = {isa = PBXBuildFile; fileRef = FC579B32A461089CDD8E8FF0E7572FBB /* NSObject+YCat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7FE08A1A7253CE2915D05F6C05551CE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC6954634F898848FA9C40A25D50535 /* SVIndefiniteAnimatedView.m */; };
 		EA557FC4A847950BBDF0714DF2B0DF91 /* Pods-QXCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A740D0D59DBCEEF8EEB6BA05E176909F /* Pods-QXCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE150FD4B4EFA21D343897FCB8E1E120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */; };
-		F0E38E625C5AEB4EE8357D415EEC4353 /* UIViewController+YCat.m in Sources */ = {isa = PBXBuildFile; fileRef = B02CAEA9860757B5C457ECB0713614C1 /* UIViewController+YCat.m */; };
-		F524CEBDB0853EA506C332469B52FC92 /* NSObject+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EB38F2ADEFB72C27A4B88DEC4F4AF0 /* NSObject+extend.m */; };
+		EED800B6A35ABB60F7E29C54B9CC0CDF /* CrazyGuideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D28A2150ECB9718A06B7AC3B3862F2 /* CrazyGuideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,71 +80,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0083796607BEE5676E5339B217F0D8ED /* QXCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXCategoryKit-dummy.m"; sourceTree = "<group>"; };
-		0407888F79CDCC9C0FA7F753B779DF00 /* SVProgressHUD+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SVProgressHUD+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/SVProgressHUD+YCat.m"; sourceTree = "<group>"; };
 		07687B95FB4405BBED5477E7558CC10C /* Pods-QXCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0B554C766595E32E75322BC78736CF90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0BFA71451A7B338A94A18E149E66D6FC /* Pods-QXCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		14EA465992F24FBDFD4698FB40B8905B /* QXCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXCategoryKit.xcconfig; sourceTree = "<group>"; };
+		1C4BADE759573F60032622F73595719D /* UIView+DKBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DKBHelper.m"; path = "QXCategoryKit/Classes/categoryTool/UIView+DKBHelper.m"; sourceTree = "<group>"; };
 		200EB4D3C9FEADF5CD9E388F0569121C /* Pods_QXCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXCategoryKit_Tests.framework; path = "Pods-QXCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2074A9C19E7BAD34E2DFB2F01B040FF4 /* QXCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		21F19D2E64F9E29C1CD83D0D2B3B5618 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		2242715BC4085DA90434972F9C61D35C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		227970BA08B0513F933EE1D04E3B9189 /* UIColor+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/UIColor+YCat.m"; sourceTree = "<group>"; };
 		235FC4EAFE5C1987942757BF66FB3622 /* Pods-QXCategoryKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXCategoryKit_Example-Info.plist"; sourceTree = "<group>"; };
-		2476FCD9619327E9C4BD72874EA9CA56 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CornerRadius.m"; path = "QXCategoryKit/Classes/categoryTool/UIView+CornerRadius.m"; sourceTree = "<group>"; };
-		2774F3FDEDDF80DE66A84F1232901CDC /* UIColor+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/UIColor+YCat.h"; sourceTree = "<group>"; };
 		2ADBA78581845E95AE02BA78AE11A1EE /* Pods-QXCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		2AFEA3CDDA8B73E1CE77E25ABF055E06 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		2B3D9602B6437457B2CC050D04F03C04 /* NSObject+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/NSObject+YCat.m"; sourceTree = "<group>"; };
 		2F17C97CA52DF8147C842ACD1A5D2417 /* Pods-QXCategoryKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXCategoryKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		2FA0021048F650AA5A036848172C8B65 /* Pods-QXCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
 		329B13A401693A09D000F9FAC3FA05BB /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		392E80A6AADFAC63DDA3838295F03BCA /* UIView+DKBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DKBHelper.h"; path = "QXCategoryKit/Classes/categoryTool/UIView+DKBHelper.h"; sourceTree = "<group>"; };
+		37D8653F57B1574E711AA2A9BF95013E /* QXCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		39C0BA7630876EC08F4BCBCAE78DC587 /* UIColor+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/UIColor+YCat.h"; sourceTree = "<group>"; };
 		3DE5BA8622C524C0A888514DB6682197 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		3EA2117CD5162FE4D399E9E44C4881FB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		43008961530BBE6A59C991A593D4CB1D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		49EB38F2ADEFB72C27A4B88DEC4F4AF0 /* NSObject+extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+extend.m"; path = "QXCategoryKit/Classes/categoryTool/NSObject+extend.m"; sourceTree = "<group>"; };
 		4F245C5B26E007EC3BC619AC3FEE0529 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		54239C3AFD46E79E6C6B5EEFBB121CF7 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F036B24CAAAF9785DA725D2D1F8DFB2 /* QXCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXCategoryKit.xcconfig; sourceTree = "<group>"; };
-		640FDB9224E47F3611DD1C4C03B459B5 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CornerRadius.h"; path = "QXCategoryKit/Classes/categoryTool/UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		565F58D493D2E9CCC169B40FD4515CAF /* QXCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		5A60AFEDBB90419A6AF0ADDBCB40A85A /* NSObject+extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+extend.m"; path = "QXCategoryKit/Classes/categoryTool/NSObject+extend.m"; sourceTree = "<group>"; };
+		61D28A2150ECB9718A06B7AC3B3862F2 /* CrazyGuideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CrazyGuideView.h; path = QXCategoryKit/Classes/categoryTool/CrazyGuideView.h; sourceTree = "<group>"; };
 		6A5B1141F24F2B66F20AE1E64497862A /* Pods-QXCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D90BCA4FC5871EC91B040B052989E6E /* Pods-QXCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
 		6F061CFB8D78A8B8E73337F9F4A8FCA8 /* Pods-QXCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		724CEFE9ABB4E965A1415C0B6CBF711A /* UIViewController+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/UIViewController+YCat.h"; sourceTree = "<group>"; };
+		7423E7378C5737BE15BFE7135E521A22 /* NSObject+extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+extend.h"; path = "QXCategoryKit/Classes/categoryTool/NSObject+extend.h"; sourceTree = "<group>"; };
 		7A351439F41DC45931F59B8FEEE20B1F /* Pods_QXCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXCategoryKit_Example.framework; path = "Pods-QXCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF3BF951256A570E02C7BFB9CB6D9AF /* UIColor+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/UIColor+YCat.m"; sourceTree = "<group>"; };
+		830C371792B2BE16B86A8C80398A116D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		87F0B05DCD0A765DB673B753946C0E95 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		8A5D8FA531B018EDCB9AE5337135ACCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93E0F45DF8E9E1BF882055B5F3882064 /* NSObject+extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+extend.h"; path = "QXCategoryKit/Classes/categoryTool/NSObject+extend.h"; sourceTree = "<group>"; };
-		979DD76AAEC7FEC06EA7D400A3FB5879 /* QXCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		8B5DDDB5E52497B27CF380104A004A67 /* UIButton+BorderCornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BorderCornerRadius.h"; path = "QXCategoryKit/Classes/categoryTool/UIButton+BorderCornerRadius.h"; sourceTree = "<group>"; };
+		8E00103A6F410C576C8E8B3F3FEB52C6 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CornerRadius.m"; path = "QXCategoryKit/Classes/categoryTool/UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		900975A5CC257450C67E65F34C158E50 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CornerRadius.h"; path = "QXCategoryKit/Classes/categoryTool/UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		9AF1892BF7D2A056D8103E1C83DA66F1 /* NSObject+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/NSObject+YCat.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4E706DD884DDC9E9FB14F6C164FDBB /* Pods-QXCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A09C6A867B1C8CA1B146E32744E04FDE /* QXCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QXCategoryKit-Info.plist"; sourceTree = "<group>"; };
-		A3C23699E6BF4AB46B7D70CC9D070244 /* UIView+DKBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DKBHelper.m"; path = "QXCategoryKit/Classes/categoryTool/UIView+DKBHelper.m"; sourceTree = "<group>"; };
 		A740D0D59DBCEEF8EEB6BA05E176909F /* Pods-QXCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		AAA901573AE010D7AD9AEBEE87B4946E /* Pods-QXCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD07E7718E252BB882050FA1B10F7AD6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AF342095293272EEC92E98971F299F6A /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		B02CAEA9860757B5C457ECB0713614C1 /* UIViewController+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/UIViewController+YCat.m"; sourceTree = "<group>"; };
-		B2596B6702622DBC9385D2886D294FD0 /* QXCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXCategoryKit-prefix.pch"; sourceTree = "<group>"; };
-		B3A71D399218451FDAB5D4BAE832C0A7 /* QXCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QXCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0C3E275FD5C6969C836A78B4F38FAE9 /* QXCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QXCategoryKit-Info.plist"; sourceTree = "<group>"; };
 		B61B8A5F267C77F96BFA1C3EE7844874 /* Pods-QXCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB4283F45CA014352E88538F9C8DC989 /* Pods-QXCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0F1710DBD38F0F5AFF1D5A35C0AA794 /* Pods-QXCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C42881084940F400C44DCC47B20B7B3B /* UIButton+BorderCornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+BorderCornerRadius.m"; path = "QXCategoryKit/Classes/categoryTool/UIButton+BorderCornerRadius.m"; sourceTree = "<group>"; };
+		C43CD641E5FD809053A2FEA7AEA6D74D /* UIView+DKBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DKBHelper.h"; path = "QXCategoryKit/Classes/categoryTool/UIView+DKBHelper.h"; sourceTree = "<group>"; };
 		C55FF351190E2E307EA6923251954DD2 /* Pods-QXCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C93E313271CEAE5F28A8FC889FFE22A8 /* UIButton+BorderCornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BorderCornerRadius.h"; path = "QXCategoryKit/Classes/categoryTool/UIButton+BorderCornerRadius.h"; sourceTree = "<group>"; };
-		CAEA9BB6A357DAD2FD45CB9CDC99A76E /* NSObject+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/NSObject+YCat.m"; sourceTree = "<group>"; };
-		CCC674379F5439C9930A5825CBE135BC /* QXCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXCategoryKit.modulemap; sourceTree = "<group>"; };
+		CAE5876FCF5BBB39895D84AA1D5AA0EB /* UIViewController+YCat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YCat.m"; path = "QXCategoryKit/Classes/categoryTool/UIViewController+YCat.m"; sourceTree = "<group>"; };
 		CE69C069599A4522192CCEBEA2E41761 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		D33F3F8E8B40F940D3C53C54DB509D46 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		D6F8A5252B190EECDF76A2424259D205 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DAA756F188AD4C4E5BF461265D74DE25 /* CrazyGuideView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CrazyGuideView.m; path = QXCategoryKit/Classes/categoryTool/CrazyGuideView.m; sourceTree = "<group>"; };
 		E8CF300EA321AFF06300AEC02C1494D9 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC6954634F898848FA9C40A25D50535 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		F26C233CFB65632DB1FE8EA443591BAD /* SVProgressHUD+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SVProgressHUD+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/SVProgressHUD+YCat.h"; sourceTree = "<group>"; };
 		F3248F7C44DBEB262DFFCFDE05DDA76E /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		F3DA1F07BAF1393BF8437023CDE54CEF /* QXCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QXCategoryKit.framework; path = QXCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DCF879A3F71CD43B7705E20AA42349 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		F4FEB621F16FD258912C0B33445429D0 /* QXCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QXCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F74096B8FE194FF9D84B4D19C6BC2BEC /* QXCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXCategoryKit.modulemap; sourceTree = "<group>"; };
+		F848620AF6142F7CCE69636C362E9892 /* UIViewController+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/UIViewController+YCat.h"; sourceTree = "<group>"; };
 		F93A1A07337CAA447D19BD6B930FA08F /* Pods-QXCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		FC579B32A461089CDD8E8FF0E7572FBB /* NSObject+YCat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YCat.h"; path = "QXCategoryKit/Classes/categoryTool/NSObject+YCat.h"; sourceTree = "<group>"; };
+		FA5D89767BEFE42BDD8DEC0CB915312A /* UIButton+BorderCornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+BorderCornerRadius.m"; path = "QXCategoryKit/Classes/categoryTool/UIButton+BorderCornerRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,16 +185,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AB216B87AD4AD6FDF108ED53B54A9F3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2242715BC4085DA90434972F9C61D35C /* LICENSE */,
-				B3A71D399218451FDAB5D4BAE832C0A7 /* QXCategoryKit.podspec */,
-				0B554C766595E32E75322BC78736CF90 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		25053C11503066A27DD065BBA9977237 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +192,42 @@
 				AD07E7718E252BB882050FA1B10F7AD6 /* QuartzCore.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		29D33FC6E814B6327F92E572D5F62C2F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6F8A5252B190EECDF76A2424259D205 /* LICENSE */,
+				F4FEB621F16FD258912C0B33445429D0 /* QXCategoryKit.podspec */,
+				830C371792B2BE16B86A8C80398A116D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		48B182B5D56E53755253806B2BDEA4DD /* QXCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				61D28A2150ECB9718A06B7AC3B3862F2 /* CrazyGuideView.h */,
+				DAA756F188AD4C4E5BF461265D74DE25 /* CrazyGuideView.m */,
+				7423E7378C5737BE15BFE7135E521A22 /* NSObject+extend.h */,
+				5A60AFEDBB90419A6AF0ADDBCB40A85A /* NSObject+extend.m */,
+				9AF1892BF7D2A056D8103E1C83DA66F1 /* NSObject+YCat.h */,
+				2B3D9602B6437457B2CC050D04F03C04 /* NSObject+YCat.m */,
+				8B5DDDB5E52497B27CF380104A004A67 /* UIButton+BorderCornerRadius.h */,
+				FA5D89767BEFE42BDD8DEC0CB915312A /* UIButton+BorderCornerRadius.m */,
+				39C0BA7630876EC08F4BCBCAE78DC587 /* UIColor+YCat.h */,
+				7DF3BF951256A570E02C7BFB9CB6D9AF /* UIColor+YCat.m */,
+				900975A5CC257450C67E65F34C158E50 /* UIView+CornerRadius.h */,
+				8E00103A6F410C576C8E8B3F3FEB52C6 /* UIView+CornerRadius.m */,
+				C43CD641E5FD809053A2FEA7AEA6D74D /* UIView+DKBHelper.h */,
+				1C4BADE759573F60032622F73595719D /* UIView+DKBHelper.m */,
+				F848620AF6142F7CCE69636C362E9892 /* UIViewController+YCat.h */,
+				CAE5876FCF5BBB39895D84AA1D5AA0EB /* UIViewController+YCat.m */,
+				29D33FC6E814B6327F92E572D5F62C2F /* Pod */,
+				BCE586DF97F2043050802DB527A48B0E /* Support Files */,
+			);
+			name = QXCategoryKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		748E5FCDD8D42FFF2AEFDFF64838F132 /* Pods-QXCategoryKit_Tests */ = {
@@ -245,24 +271,10 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9871E0A4D9874461BFA4ED93D54B1ED0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CCC674379F5439C9930A5825CBE135BC /* QXCategoryKit.modulemap */,
-				5F036B24CAAAF9785DA725D2D1F8DFB2 /* QXCategoryKit.xcconfig */,
-				0083796607BEE5676E5339B217F0D8ED /* QXCategoryKit-dummy.m */,
-				A09C6A867B1C8CA1B146E32744E04FDE /* QXCategoryKit-Info.plist */,
-				B2596B6702622DBC9385D2886D294FD0 /* QXCategoryKit-prefix.pch */,
-				979DD76AAEC7FEC06EA7D400A3FB5879 /* QXCategoryKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QXCategoryKit";
-			sourceTree = "<group>";
-		};
 		A09EE5F48EBC2BCC9CD23F383717C931 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B255955164901D45D7F0D44D9233ED31 /* QXCategoryKit */,
+				48B182B5D56E53755253806B2BDEA4DD /* QXCategoryKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -278,30 +290,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B255955164901D45D7F0D44D9233ED31 /* QXCategoryKit */ = {
+		BCE586DF97F2043050802DB527A48B0E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93E0F45DF8E9E1BF882055B5F3882064 /* NSObject+extend.h */,
-				49EB38F2ADEFB72C27A4B88DEC4F4AF0 /* NSObject+extend.m */,
-				FC579B32A461089CDD8E8FF0E7572FBB /* NSObject+YCat.h */,
-				CAEA9BB6A357DAD2FD45CB9CDC99A76E /* NSObject+YCat.m */,
-				F26C233CFB65632DB1FE8EA443591BAD /* SVProgressHUD+YCat.h */,
-				0407888F79CDCC9C0FA7F753B779DF00 /* SVProgressHUD+YCat.m */,
-				C93E313271CEAE5F28A8FC889FFE22A8 /* UIButton+BorderCornerRadius.h */,
-				C42881084940F400C44DCC47B20B7B3B /* UIButton+BorderCornerRadius.m */,
-				2774F3FDEDDF80DE66A84F1232901CDC /* UIColor+YCat.h */,
-				227970BA08B0513F933EE1D04E3B9189 /* UIColor+YCat.m */,
-				640FDB9224E47F3611DD1C4C03B459B5 /* UIView+CornerRadius.h */,
-				2476FCD9619327E9C4BD72874EA9CA56 /* UIView+CornerRadius.m */,
-				392E80A6AADFAC63DDA3838295F03BCA /* UIView+DKBHelper.h */,
-				A3C23699E6BF4AB46B7D70CC9D070244 /* UIView+DKBHelper.m */,
-				724CEFE9ABB4E965A1415C0B6CBF711A /* UIViewController+YCat.h */,
-				B02CAEA9860757B5C457ECB0713614C1 /* UIViewController+YCat.m */,
-				1AB216B87AD4AD6FDF108ED53B54A9F3 /* Pod */,
-				9871E0A4D9874461BFA4ED93D54B1ED0 /* Support Files */,
+				F74096B8FE194FF9D84B4D19C6BC2BEC /* QXCategoryKit.modulemap */,
+				14EA465992F24FBDFD4698FB40B8905B /* QXCategoryKit.xcconfig */,
+				2074A9C19E7BAD34E2DFB2F01B040FF4 /* QXCategoryKit-dummy.m */,
+				B0C3E275FD5C6969C836A78B4F38FAE9 /* QXCategoryKit-Info.plist */,
+				37D8653F57B1574E711AA2A9BF95013E /* QXCategoryKit-prefix.pch */,
+				565F58D493D2E9CCC169B40FD4515CAF /* QXCategoryKit-umbrella.h */,
 			);
-			name = QXCategoryKit;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QXCategoryKit";
 			sourceTree = "<group>";
 		};
 		C4D1ABB5A67FA74998B4D813D110073F /* Targets Support Files */ = {
@@ -377,22 +377,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0184F2C78F3F88C977E15E617CAAAB68 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				764A69F3ACD24EE552BA5E09035AB151 /* NSObject+extend.h in Headers */,
-				D9327A7F7FAC848F7F8C979A9C690C37 /* NSObject+YCat.h in Headers */,
-				D3F838424990C432319F959787D7ED2F /* QXCategoryKit-umbrella.h in Headers */,
-				11BCEB170BB849FA2F2F0AC78399774A /* SVProgressHUD+YCat.h in Headers */,
-				8ED6717C656DB1D7B325E6E6133D21D4 /* UIButton+BorderCornerRadius.h in Headers */,
-				C286DA2B66473FAA37811418DE4383B5 /* UIColor+YCat.h in Headers */,
-				4CC5067BB6F9728873A85AF26ECB8605 /* UIView+CornerRadius.h in Headers */,
-				761E74009B1EC2645526C1C47FCC8C28 /* UIView+DKBHelper.h in Headers */,
-				179E4B0AB0466F68920F195704C7A074 /* UIViewController+YCat.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1FD596AB01B3090B56D76A22D44E512C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +386,22 @@
 				BD82679AC079CEBD5D55C2E4F8D0D533 /* SVProgressHUD-umbrella.h in Headers */,
 				A3FB95E326A7787ED3A5BFD9342FD39D /* SVProgressHUD.h in Headers */,
 				CD11BB58407187B060997DEB0F15AE6C /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33930C121FE67FB7E1012FDA9CA1096B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED800B6A35ABB60F7E29C54B9CC0CDF /* CrazyGuideView.h in Headers */,
+				3D9DA28F9002F545BB341D3E5E17A03D /* NSObject+extend.h in Headers */,
+				307551AD3CFCB8B4C1E935D9ED8745AB /* NSObject+YCat.h in Headers */,
+				39261E626579F67D55BD321B7526432C /* QXCategoryKit-umbrella.h in Headers */,
+				D0A3C549F8D5F8774787171AB81C2569 /* UIButton+BorderCornerRadius.h in Headers */,
+				1AF6512BC25FAEC3519518CD1A76677A /* UIColor+YCat.h in Headers */,
+				834AEFA93CEACA8991C6ACD53E5A0BC7 /* UIView+CornerRadius.h in Headers */,
+				1899DA8AA1BEFB39CFE7FDC23FE5E205 /* UIView+DKBHelper.h in Headers */,
+				3C5D3BBDB630F7D55E1DEEE357CFBB72 /* UIViewController+YCat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +446,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9CA367DB75BC400358217F957B31D60 /* Build configuration list for PBXNativeTarget "QXCategoryKit" */;
 			buildPhases = (
-				0184F2C78F3F88C977E15E617CAAAB68 /* Headers */,
-				122FF989B62AA3B0B07BABFEFB725557 /* Sources */,
+				33930C121FE67FB7E1012FDA9CA1096B /* Headers */,
+				16178DDA2BF32605C54CA3E28E4A9AD2 /* Sources */,
 				0321235569CE3DAE6F55E5EEDB59D288 /* Frameworks */,
 				8C861340F6198A234A579F28B822C5C1 /* Resources */,
 			);
@@ -563,19 +563,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		122FF989B62AA3B0B07BABFEFB725557 /* Sources */ = {
+		16178DDA2BF32605C54CA3E28E4A9AD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F524CEBDB0853EA506C332469B52FC92 /* NSObject+extend.m in Sources */,
-				45D6D7539B1AB95044B4BFFC5BE4E430 /* NSObject+YCat.m in Sources */,
-				0E7773C4E12A75AE9DF81D543D318871 /* QXCategoryKit-dummy.m in Sources */,
-				8D3CEC0F4B4F508A785FDADE22B11CD9 /* SVProgressHUD+YCat.m in Sources */,
-				5A5BD49782E7DBA4F8D50B120E97A7D5 /* UIButton+BorderCornerRadius.m in Sources */,
-				03E5A194C168DA038C8570C3E1CB610F /* UIColor+YCat.m in Sources */,
-				796FD9083FE04C5B3DE6BC18B6E48A81 /* UIView+CornerRadius.m in Sources */,
-				CF2B093BD73B7361D310D4D5F4A4DE27 /* UIView+DKBHelper.m in Sources */,
-				F0E38E625C5AEB4EE8357D415EEC4353 /* UIViewController+YCat.m in Sources */,
+				7907692AFC280AE86849D6DCE084F784 /* CrazyGuideView.m in Sources */,
+				BC8C9E5ADDD1200D39FFE58CBA8BF467 /* NSObject+extend.m in Sources */,
+				4E6535CF8594A540CF618C36B3E3A37D /* NSObject+YCat.m in Sources */,
+				7CF6B8317A773D79B5251EDA9B227CCD /* QXCategoryKit-dummy.m in Sources */,
+				A3C1C9FC4337CB6915A61DEE4751D8B2 /* UIButton+BorderCornerRadius.m in Sources */,
+				667F6B00C105DACCD7CE5BE57106227D /* UIColor+YCat.m in Sources */,
+				B3A29B34D0338DF5586EC09AA66553A6 /* UIView+CornerRadius.m in Sources */,
+				72343751923AD89059856D879FE1C0D3 /* UIView+DKBHelper.m in Sources */,
+				567F5FC2F33E9ADDAB08D30DBB6C6C1C /* UIViewController+YCat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -927,7 +927,7 @@
 		};
 		95DA052B37C1549D28916D77AEA5A33B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F036B24CAAAF9785DA725D2D1F8DFB2 /* QXCategoryKit.xcconfig */;
+			baseConfigurationReference = 14EA465992F24FBDFD4698FB40B8905B /* QXCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -992,7 +992,7 @@
 		};
 		E5158025D00893AB35CE9916949BEBD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F036B24CAAAF9785DA725D2D1F8DFB2 /* QXCategoryKit.xcconfig */;
+			baseConfigurationReference = 14EA465992F24FBDFD4698FB40B8905B /* QXCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

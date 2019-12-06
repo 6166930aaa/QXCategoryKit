@@ -10,9 +10,9 @@
 #endif
 #endif
 
+#import "CrazyGuideView.h"
 #import "NSObject+extend.h"
 #import "NSObject+YCat.h"
-#import "SVProgressHUD+YCat.h"
 #import "UIButton+BorderCornerRadius.h"
 #import "UIColor+YCat.h"
 #import "UIView+CornerRadius.h"
